@@ -1,0 +1,55 @@
+<div class="container">
+  <ul>
+    <li>
+      <a href="#">
+        About Us
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        Contact Us
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        Services
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        Portfolio
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        Projects
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+.container{
+  width: 800px;
+  background: linear-gradient(to bottom,red,green);
+  margin: 50px auto;
+  ul{
+    list-style-type:none;
+    li{
+      display:inline-block;
+      a{
+        text-decoration: none;
+        text-transform: uppercase;
+        margin:10px;
+        background-color: black;
+        color:white;
+        padding: 20px;
+        box-shadow: 3px 3px 5px #777;
+        transition: background-color 5s;
+        &:hover{
+          background-color:blue;
+        }
+      }
+    }
+  }
+}
